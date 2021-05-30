@@ -14,7 +14,7 @@ import (
 
 func main() {
 
-	fmt.Print("Enter your token: ")
+	fmt.Print("ODQ4NjEyMjY3Mzg0ODk3NTk2.YLPJwg.T2nb9N84GIF-LjR3dvG7nWBMUqc")
 	fmt.Scan(&token)
 
 	req, _ := http.NewRequest("GET", "https://discord.com/api/v8/gateway/bot", nil) // I would use fasthttp but does speed really matter that much here?
